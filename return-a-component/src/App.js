@@ -1,11 +1,8 @@
-import './App.css';
+import React from 'react';
+import Profile from './Profile'
 
 function App() {
-    return ( < div className = "App" >
-        
-<h1>Gladstone</h1>
- </div>
-    );
+    return <Profile />
 }
 
 export default App;
